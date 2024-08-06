@@ -23,7 +23,9 @@ Crie um arquivo chamado index.js na raiz do seu projeto.
 # 3. Código do Servidor
 
 const express = require('express');
+
 const app = express();
+
 const port = 3000;
 
 // Rota raiz
