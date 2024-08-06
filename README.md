@@ -5,7 +5,9 @@ Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em seu 
 
 # Criação do Projeto:
 Abra seu terminal e crie um novo diretório para o seu projeto:
+
 mkdir minha-app-express
+
 cd minha-app-express
 
 # Inicialização do Projeto:
