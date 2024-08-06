@@ -1,4 +1,4 @@
-# Criando-uma-Aplica-o-Simples-com-Node.js-e-Express
+# Criando-uma-Aplicacao-Simples-com-Node.js-e-Express
 
 # 1. Instalação do Node.js e npm:
 Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em seu sistema. Você pode baixá-los em https://nodejs.org/.
