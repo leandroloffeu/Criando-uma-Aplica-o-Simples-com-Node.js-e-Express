@@ -29,24 +29,37 @@ const app = express();
 const port = 3000;
 
 // Rota raiz
+
 app.get('/', (req, res) => {
+
   res.send('Bem-vindo à minha aplicação Express!');
+  
 });
 
 // Rota para uma página específica
+
 app.get('/sobre', (req, res) => {
+
   res.send('Esta é a página sobre.');
+  
 });
 
 // Rota para um recurso dinâmico (ex: usuário)
+
 app.get('/usuarios/:id', (req, res) => {
+
   const userId = req.params.id;
+  
   res.send(`Você está buscando o usuário com ID: ${userId}`);
+  
 });
 
 // Iniciando o servidor
+
 app.listen(port, () => {
+
   console.log(`Servidor rodando na porta ${port}`);
+  
 });
 
 
