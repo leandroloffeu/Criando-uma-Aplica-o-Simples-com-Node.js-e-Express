@@ -65,21 +65,34 @@ app.listen(port, () => {
 
 # 4. Explicação do Código:
 Importar o Express: Importamos o módulo Express e criamos uma instância da aplicação.
+
 Definir a Porta: Definimos a porta em que o servidor irá escutar.
+
 Criar Rotas:
+
 app.get('/'): Define uma rota GET para a raiz da aplicação.
+
 app.get('/sobre'): Define uma rota GET para a página "sobre".
+
 app.get('/usuarios/:id'): Define uma rota GET para um recurso dinâmico "usuários", onde :id é um parâmetro de rota.
+
 Enviar Respostas:
+
 res.send(): Envia uma resposta para o cliente.
+
 Iniciar o Servidor: Inicia o servidor e escuta na porta especificada.
 
 
 # 5. Executar a Aplicação
+
 No seu terminal, execute o seguinte comando:
+
 node index.js
 
 # Agora, você pode acessar sua aplicação no navegador digitando: 
+
 http://localhost:3000 para a página inicial
+
 http://localhost:3000/sobre para a página sobre
+
 http://localhost:3000/usuarios/1 para buscar um usuário com ID 1.
